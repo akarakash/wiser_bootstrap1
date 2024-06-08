@@ -11,7 +11,7 @@
 <body>
 <section class="">
   <header>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top aaa">
         <div class="container">
           <a class="navbar-brand fs-1 fw-bolder" href="#">START BOOTSTRAP</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +20,13 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold" aria-current="page" href="#">PORTFOLIO</a>
+                <a class="nav-link fs-5 fw-bold" aria-current="page" href="#PORTFOLIO">PORTFOLIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold" href="#">ABOUT</a>
+                <a class="nav-link fs-5 fw-bold" href="#ABOUT">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 fw-bold" href="#">CONTACT</a>
+                <a class="nav-link fs-5 fw-bold" href="#CONTACT ">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="fs-2 text-white text-center mt-4 pb-100">Graphic Artist - Web Designer - Illustrator</div>
  </section>
- <section>
+ <section id="PORTFOLIO">
   <div class="container">
        <div class="d-flex justify-content-center align-items-center mt-100">
       <div class="start">PORTFOLIO</div>
@@ -56,30 +56,30 @@
         <div class="und1"></div>
     </div>
     <div class="row mt-5">
-      <div class=" col-sm-6 col-md-4 ">
+      <div class=" col-sm-6 col-md-4  mb-2">
         <img src="./assets/img/img1.png" alt="" class="img-fluid rounded-3">
       </div>
-      <div class=" col-sm-6 col-md-4">
+      <div class=" col-sm-6 col-md-4 mb-2">
         <img src="./assets/img/img2.png" alt="" class="img-fluid rounded-3">
       </div>
-      <div class=" col-sm-6 col-md-4">
+      <div class=" col-sm-6 col-md-4 mb-2">
         <img src="./assets/img/img3.png" alt="" class="img-fluid rounded-3">
       </div>
     </div>
     <div class="row mt-5">
-      <div class=" col-sm-6 col-md-4">
+      <div class=" col-sm-6 col-md-4 mb-2">
         <img src="./assets/img/img4.png" alt="" class="img-fluid rounded-3">
       </div>
-      <div class="  col-sm-6 col-md-4">
+      <div class="  col-sm-6 col-md-4 mb-2">
         <img src="./assets/img/img5.png" alt="" class="img-fluid rounded-3">
       </div>
-      <div class=" col-sm-6 col-md-4">
+      <div class=" col-sm-6 col-md-4 mb-2">
         <img src="./assets/img/img6.png" alt="" class="img-fluid rounded-3">
       </div>
     </div>
   </div>
  </section>
- <section class="sec1 mt-100">
+ <section class="sec1 mt-100" id="ABOUT">
   <div class="container">
     <div class="d-flex justify-content-center align-items-center pt-5">
       <div class="start text-white">ABOUT</div>
@@ -90,23 +90,25 @@
         <div class="und"></div>
     </div>
      <div class="row mt-4">
-      <div class="col-12 col-md-6">
-        <p class="fs-5 w-75 text-white ms-auto">
+      <div class="col-md-1"></div>
+      <div class="col-12 col-md-5">
+        <p class="fs-5 w-100 text-white">
           Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
         </p>
       </div>
-      <div class="col-12 col-md-6">
-        <p class="fs-5 w-75 text-white">
+      <div class="col-12 col-md-5">
+        <p class="fs-5 w-100 text-white">
           You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
         </p>
       </div>
+      <div class="col-md-1"></div>
      </div>
      <div class="d-flex justify-content-center align-items-center pb-100 mt-5">
       <button class="btn btnn1 p-3 px-4"> <i class="fa fa-download" aria-hidden="true"></i> free download!</button>
      </div>
   </div>
  </section>
- <section>
+ <section id="CONTACT">
 <div class="container mt-100">
   <div class="text-center">
   <div class="start text-center">CONTACT ME </div>
@@ -116,16 +118,16 @@
     <div class="und1"></div>
 </div>
     <div class="my-5">
-      <input type="text" placeholder="FULL NAME" class="inputs">
+      <input type="text" placeholder="FULL NAME" class="inputs p-3">
     </div>
     <div class="my-5">
-      <input type="text" placeholder="EMAIL ADDRESS" class="inputs">
+      <input type="text" placeholder="EMAIL ADDRESS" class="inputs p-3">
     </div>
     <div class="my-5">
-      <input type="text" placeholder="PHONE NUMBER" class="inputs">
+      <input type="text" placeholder="PHONE NUMBER" class="inputs p-3">
     </div>
     <div class="my-2">
-      <textarea class="inputs1" name="" placeholder="MESSAGE" id=""></textarea>
+      <textarea class="inputs1 p-3" name="" placeholder="MESSAGE" id=""></textarea>
     </div>
   </div>
 </div>
@@ -168,141 +170,6 @@
     </div>
   </footer>
 </section>
-<div class="d-none">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-      <a class="navbar-brand" href="#">Navbar scroll</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Link
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Link</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-  <section class="banner" style="background-color: green;height: calc(100vh - 56px);">
-    <div class="container" style="height: -webkit-fill-available;">
-      <div class="parent" style="display: flex;flex-direction: column;align-items: center;justify-content: center;height: inherit;">
-        <img class="" style="width: 100px;" src="../assets/img/avataaars.svg" alt="">
-        <h1 class="titleData" style="text-decoration: line-through;">title</h1>
-        <div class="data" style="display: flex;flex-wrap: wrap;">
-          Graphic Artist - Web Designer - Illustrator
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="portfolio">
-    <div class="container">
-      <h1 class="titleData" style="text-decoration: line-through;">PORTFOLIO</h1>
-      <div class="row">
-        <div class="col-md-4"><img class="w-100" src="./assets/img/img1.png" alt=""></div>
-        <div class="col-md-4"><img class="w-100" src="./assets/img/img1.png" alt=""></div>
-        <div class="col-md-4"><img class="w-100" src="./assets/img/img1.png" alt=""></div>
-      </div>
-  
-      <div class="parent" style="display: flex;">
-        <img class="" style="flex: 1;width: 30%;height: fit-content;" src="./assets/img/img1.png" alt="">
-        <img class="" style="flex: 1;width: 30%;height: fit-content;" src="./assets/img/img1.png" alt="">
-        <img class="" style="flex: 1;width: 30%;height: fit-content;" src="./assets/img/img1.png" alt="">
-      </div>
-      <div class="d-flex flex-column flex-md-row justify-content-between">
-        <img class="w-100 w-md-25" src="./assets/img/img1.png" alt="">
-        <img class="w-100 w-md-25" src="./assets/img/img1.png" alt="">
-        <img class="w-100 w-md-25" src="./assets/img/img1.png" alt="">
-      </div>
-      <div class="dattaaa" style="display: flex;">
-        <div style="flex: 1;background-color: grey;height: 100px;"></div>
-        <div style="flex: 2;background-color: yellow;height: 100px;"></div>
-        <div style="flex: 1;background-color: green;height: 100px;"></div>
-        <div style="flex: 1;background-color: red;height: 100px;"></div>
-        <div style="flex: 1;background-color: blue;height: 100px;"></div>
-      </div>
-    </div>
-  </section>
-  <section class="about mb-5">
-    <div class="container">
-      <h1 class="titleData">title</h1>
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5 mb-5-0">
-          <div class="data">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization</div>
-        </div>
-        <div class="col-md-5">
-          <div class="data">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization</div>
-        </div>
-        <div class="col-md-1"></div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="text-center w-25 p-4 border border-success my-3 m-auto rounded-3">button text</div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="contactform">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control border-0 border-bottom rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-  </section>
-</div>
-<style>
-  .dattaaa div:hover{
-    flex: 3!important;
-  }
-  .buttonn {
-    text-align: center;
-    width: 200px;
-    padding: 10px;
-    border: 5px solid green;
-    margin: 20px auto;
-}
-</style>
 <script src="./assets/downloads/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

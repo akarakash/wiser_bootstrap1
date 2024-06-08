@@ -38,13 +38,16 @@
     width: 60%;
 }
 .inputs:focus-visible{
-    border: none;
+    outline: none;
 }
 .inputs1{
     width: 60%;
     height: 160px;
     border: none;
     border-bottom: 1px solid gray;
+}
+.inputs1:focus-visible{
+    outline: none;
 }
 .favicon{
     width: 60px;
@@ -53,13 +56,15 @@
     background-color: #2c3e50;
     border: 2px solid white;
 }
-.favicon:hover{
+.favicon:hover i.fa{
     background-color: white;
-   color: #2c3e50;
+    color: #2c3e50!important;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
 .sect2{
     background-color: #2c3e50;
-    
 }
 .form-control:focus {
     box-shadow: none;
